@@ -1,0 +1,118 @@
+/*cores*/
+:root{
+    --fundo: #1f2e4e;
+    --PRETOLEGAL: #333;
+    --VERMELHO:#D00;
+    --Azultecno:#6565ee;
+}
+/*configurações globais*/
+*{box-sizing: border-box; 
+}
+html,body{
+height: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+/*marca*/
+header{
+    background-color: var(--PRETOLEGAL);
+    color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+/*navegação*/
+nav{
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+    border-radius: 1;
+}
+nav a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin: 0 15px;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: var(--VERMELHO) ;
+}
+/*main*/
+main{
+    
+    display: flex;
+    flex-direction: column;
+}
+/*sections*/
+section{
+    background-color: #fff;
+    border: 2px solid #6565ee;
+    margin: 40px 40px;
+    border-radius: 12px;
+    padding: 50px 40px;
+    
+}
+section a{
+    padding: 0 15px;
+}
+#sobre:hover{
+    background-image: linear-gradient(to bottom, #cd2a99d4, #b4bb2fd3);
+    color: #eee;
+    padding: 60px 20px;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#habilidades:hover{
+    background-image: linear-gradient(to bottom, #55cd2ad1, #2f3dbbd5);
+    color: #eee;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#projetos:hover{
+    background-image: linear-gradient(to bottom, #cd2a2ad2, #2fbb67d9);
+    color: #eee;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#contato:hover{
+    background-image: linear-gradient(to bottom, #3dcd2ad7, #bb2fb2d0);
+    color: #eee;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+#instagram{
+    width: 5%;
+}
+#facebook{
+    width: 5%;
+}
+#whatsapp{
+    width: 5%;
+}
+
+.segundasection{
+    margin: 10px 10px;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+.segundasection:hover{
+  background-color: #ebee1e;
+    border: 2px solid #6565ee;
+    transition: 0.5s;
+}
+#flexsecs{
+    display: flex;
+}
+#projetos a{
+    text-decoration: none;
+    color: #333;
+}
+#projetos a:hover{
+   
+    color: #2eca20;
+}
+footer{
+    background-color: #1f2e4e;
+    color: #eee;
+    padding: 15px 10px;
+    text-align: center;
+}
